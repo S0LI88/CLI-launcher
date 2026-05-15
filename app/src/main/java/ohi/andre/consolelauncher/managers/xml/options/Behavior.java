@@ -242,7 +242,7 @@ public enum Behavior implements XMLPrefsSave {
     time_format {
         @Override
         public String defaultValue() {
-            return "d MMM yyyy HH:mm:ss@HH:mm:ss";
+            return "d MMM yyyy HH:mm:ss@HH:mm";
         }
 
         @Override
@@ -450,7 +450,7 @@ public enum Behavior implements XMLPrefsSave {
     app_launch_format {
         @Override
         public String defaultValue() {
-            return "--> %a";
+            return "--> %l";
         }
 
         @Override

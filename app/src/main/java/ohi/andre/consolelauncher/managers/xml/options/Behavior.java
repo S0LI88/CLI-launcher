@@ -904,7 +904,7 @@ public enum Behavior implements XMLPrefsSave {
     orientation {
         @Override
         public String defaultValue() {
-            return "2";
+            return "1";
         }
 
         @Override

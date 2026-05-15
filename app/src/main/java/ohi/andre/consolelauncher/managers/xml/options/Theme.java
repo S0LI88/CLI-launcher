@@ -35,7 +35,7 @@ public enum Theme implements XMLPrefsSave {
     bg_color {
         @Override
         public String defaultValue() {
-            return "#00000000";
+            return "#000000";
         }
 
         @Override

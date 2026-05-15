@@ -767,7 +767,7 @@ public enum Ui implements XMLPrefsSave {
     show_unlock_counter {
         @Override
         public String defaultValue() {
-            return "true";
+            return "false";
         }
 
         @Override

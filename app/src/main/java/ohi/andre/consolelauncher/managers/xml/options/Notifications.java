@@ -51,7 +51,7 @@ public enum Notifications implements XMLPrefsSave {
     notification_format {
         @Override
         public String defaultValue() {
-            return "[%t1] %pkg: %[100][teal]title --- %text";
+            return "[%t1] %l: %[100][teal]title --- %text";
         }
 
         @Override
